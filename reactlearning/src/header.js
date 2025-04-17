@@ -1,13 +1,10 @@
-const Header=() =>{
-    const headerstyle = {
-        backgroundColor : 'mediumblue ',
-        color: '#fff'
-    };
-    return(
+const Header = () => {
+
+    return (
         <header>
-<h1> Car Details</h1>
+            <h1>Groceries List</h1>
         </header>
     )
 }
 
-export default Header
+export default Header;
